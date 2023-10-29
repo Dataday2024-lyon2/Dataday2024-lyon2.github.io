@@ -11139,3 +11139,7 @@ section.resume-section .resume-section-content {
 .resp-container-map { 
   overflow: hidden; 
 }
+
+.resp-container-video { 
+  overflow: hidden; 
+}
