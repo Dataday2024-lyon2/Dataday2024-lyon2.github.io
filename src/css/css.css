@@ -11135,3 +11135,7 @@ section.resume-section .resume-section-content {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.resp-container-map { 
+  overflow: hidden; 
+}
