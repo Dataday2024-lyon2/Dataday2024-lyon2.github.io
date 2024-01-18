@@ -11244,4 +11244,8 @@ section.resume-section .resume-section-content {
   }
 }
 
+.affiche_css {
+  height: 105vw ! important;
+}
+
 
