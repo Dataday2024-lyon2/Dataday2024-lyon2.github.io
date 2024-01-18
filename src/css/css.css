@@ -8266,7 +8266,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 0% !important;
 }
 
 .rounded-pill {
@@ -10901,8 +10901,8 @@ p.lead {
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 15rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    /* max-height: 10rem; */
+    border: 0.1rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11235,6 +11235,12 @@ section.resume-section .resume-section-content {
 @media only screen and (max-width: 1000px){
   .close {
     top: 50px;
+  }
+}
+
+@media (min-width: 769px) {
+  .element-mobile-only {
+      display: none;
   }
 }
 
