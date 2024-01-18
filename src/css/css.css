@@ -11150,6 +11150,8 @@ section.resume-section .resume-section-content {
 
 #affiche {
   cursor: pointer;
+  width: 70vw;
+  margin-top: 20px;
 }
 
 /* The Modal (background) */
@@ -11244,7 +11246,7 @@ section.resume-section .resume-section-content {
   }
   .element-desktop-only {
     display: block;
-}
+  }
 }
 
 @media (max-width: 1023px) {
@@ -11253,7 +11255,8 @@ section.resume-section .resume-section-content {
   }
   .element-mobile-only {
     display: block;
-}
+    text-align: center;
+  }
 }
 
 .affiche_css {
