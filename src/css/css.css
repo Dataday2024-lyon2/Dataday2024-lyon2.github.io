@@ -11240,14 +11240,20 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 769px) {
   .element-mobile-only {
-      display: none;
+    display: none;
   }
+  .element-desktop-only {
+    display: block;
+}
 }
 
 @media (max-width: 1023px) {
   .element-desktop-only {
-      display: none;
+    display: none;
   }
+  .element-mobile-only {
+    display: block;
+}
 }
 
 .affiche_css {
