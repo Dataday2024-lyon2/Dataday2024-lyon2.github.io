@@ -10985,7 +10985,7 @@ section.resume-section .resume-section-content {
   height: 90vw;
   max-height: 45rem;
   position: absolute;
-  /*width: 30vw;*/
+  width: 70vw;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -11240,6 +11240,12 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 769px) {
   .element-mobile-only {
+      display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .element-desktop-only {
       display: none;
   }
 }
